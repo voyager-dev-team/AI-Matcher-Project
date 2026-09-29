@@ -1,0 +1,81 @@
+# ==========================================
+# Operating System Files
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ==========================================
+# IDE & Editor Files
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+
+# ==========================================
+# Environment Variables & Secrets
+# ==========================================
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# ==========================================
+# Python & Backend
+# ==========================================
+# Virtual Environments
+venv/
+env/
+.venv/
+backend/venv/
+ENV/
+
+# Bytecode & Caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local Database
+*.db
+*.sqlite
+*.sqlite3
+backend/ses_matcher.db
+
+# ==========================================
+# Node.js & Frontend
+# ==========================================
+node_modules/
+frontend/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build Outputs
+dist/
+frontend/dist/
+build/
+.vite/
+
+# ==========================================
+# Logs & Temporary Files
+# ==========================================
+*.log
+logs/
+tmp/
+temp/
